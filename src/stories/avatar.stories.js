@@ -25,9 +25,6 @@ const Template = ({status , ...args}) => {
 export const Default = Template.bind({})
 Default.args = {
     src: face,
-    shape: "circle",
-    size: "40px"
-
 }
 
 export const OffAndOnline = Template.bind({})
