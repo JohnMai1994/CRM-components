@@ -1,7 +1,7 @@
 import {ReactComponent as Alert} from "../asserts/cuc_logo/icon_alert.svg";
 import {ReactComponent as AddCircle} from "../asserts/cuc_logo/addCircle.svg";
 import {ReactComponent as AddRect} from "../asserts/cuc_logo/addRect.svg";
-import {ReactComponent as Document} from "../asserts/cuc_logo/docu.svg";
+import {ReactComponent as Document} from "./cuc_logo/docu.svg";
 import {ReactComponent as Image} from "../asserts/cuc_logo/image.svg";
 import {ReactComponent as Import} from "../asserts/cuc_logo/import.svg";
 import {ReactComponent as More} from "../asserts/cuc_logo/more.svg";
