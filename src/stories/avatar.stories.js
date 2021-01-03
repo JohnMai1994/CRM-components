@@ -1,15 +1,49 @@
 import React from "react";
 import Avatar from "../components/Avatar"
-import  "stories/story.css"
+import "stories/story.css"
+import face from "asserts/picture/face.jpg"
+import logo from "asserts/picture/logo.png"
 
 export default {
     title: "UI组件/Avatar",
-        components: Avatar
+    components: Avatar,
+    status: {
+        control: {
+            type: "select",
+            options: ["offline", "online"]
+        }
+    }
 };
 
-const Template = (args) => <Avatar {...args} >默认2</Avatar>
-
-
-export const Default = Template.bind({});
-Default.args = {
+const Template = ({status , ...args}) => {
+    console.log(status)
+    return <Avatar status={status} {...args} />
 }
+
+
+
+export const Default = Template.bind({})
+Default.args = {
+    src: face,
+    shape: "circle",
+    size: "40px"
+
+}
+
+export const OffAndOnline = Template.bind({})
+OffAndOnline.args = {
+    src: face,
+    shape: "circle",
+    size: "40px",
+    status: 'online',
+    statusIconSize: "5px"
+}
+
+
+export const Logo = Template.bind({});
+Logo.args = {
+    src: logo,
+    size: "48px",
+    shape: "rectangle"
+}
+
