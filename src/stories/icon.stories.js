@@ -36,4 +36,12 @@ Defalut.args = {
     opacity: 0
 }
 
+export const Interpretation = () =>  <Icon.Interpretation/>
+export const Alert = () =>  (
+    <div>
+        <Icon.Alert show={true}/>
+        <Icon.Alert show={false}/>
+    </div>
+
+)
 

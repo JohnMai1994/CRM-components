@@ -30,7 +30,7 @@ function Input
     );
 }
 
-function Search ({placeholder = "Search", ...rest}) {
+function Search({placeholder = "Search", ...rest}) {
     const theme = useTheme();
 
     return (

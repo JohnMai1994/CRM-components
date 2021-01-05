@@ -14,9 +14,10 @@ NavBar
 
 TopBar
 - [X] Input 输入(Search搜索按钮)
-- [ ] Translate Icon 翻译按钮
-- [ ] Alert Icon 警告按钮
+- [X] Interpretation Icon 翻译按钮
+- [X] Alert Icon 警告按钮
 - [ ] Introduction 简介
+- [ ] DropDown Menu 下拉菜单
 
 Content
 - [ ] Filter 分类
