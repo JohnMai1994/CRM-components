@@ -5,7 +5,8 @@ import {ReactComponent as Document} from "./cuc_logo/docu.svg";
 import {ReactComponent as Image} from "../asserts/cuc_logo/image.svg";
 import {ReactComponent as Import} from "../asserts/cuc_logo/import.svg";
 import {ReactComponent as More} from "../asserts/cuc_logo/more.svg";
-import {ReactComponent as Notification} from "../asserts/cuc_logo/notification.svg";
+import {ReactComponent as NotificationNo} from "./cuc_logo/notificationNo.svg";
+import {ReactComponent as NotificationYes} from "./cuc_logo/notificationYes.svg";
 import {ReactComponent as SearchLarge} from "../asserts/cuc_logo/searchLarge.svg";
 import {ReactComponent as SearchSmall} from "../asserts/cuc_logo/searchSmall.svg";
 import {ReactComponent as Unreco} from "../asserts/cuc_logo/unreco.svg";
@@ -45,7 +46,7 @@ import {ReactComponent as EN} from "../asserts/cuc_logo/Translation/EN.svg";
 
 // Export All SVG ICON
 export {
-    Alert, Image, AddCircle, AddRect, Document, Import, More, Notification, SearchLarge, SearchSmall, Unreco,
+    Alert, Image, AddCircle, AddRect, Document, Import, More, NotificationNo, NotificationYes, SearchLarge, SearchSmall, Unreco,
     // Arrow
     ArrowDown, ArrowDoubleRight, ArrowLeft, ArrowRight,
     // National
