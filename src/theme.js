@@ -11,6 +11,7 @@ export default {
 
 
     gray: "rgba(24, 28, 47, 0.2)",
+    grayBar: "#d9d9d9",
     grayWhite: "#F5F5F5",
     grayDark: "#999999",
     gray2: "rgba(241, 237, 237, 0.3)",

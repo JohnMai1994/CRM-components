@@ -9,9 +9,18 @@ const InputContainer = styled.div`
     padding: 0 10px
 `;
 
-const Prefix = styled.div``;
+const Prefix = styled.div`
+    margin-right: 6px;
+`;
 
-const PrefixBar = styled.div``;
+const PrefixBar = styled.div`
+    display:block;
+    background-color: ${({theme}) => theme.grayBar};
+    width: 1px;
+    height: 24px;
+    margin-right: 14px;
+
+`;
 
 const StyledInput = styled.input`
     // 高宽
@@ -31,12 +40,11 @@ const StyledInput = styled.input`
     &::placeholder { // 输入内容的颜色
       color: ${({theme}) => theme.grayDark};
     }    
-    
-    
-
 `;
 
-const Suffix = styled.div``
+const Suffix = styled.div`
+    margin-left: 16px;
+`
 
 export default StyledInput
 export {InputContainer, Prefix, PrefixBar, Suffix}
