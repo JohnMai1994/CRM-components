@@ -5,7 +5,7 @@ import face from "asserts/picture/face.jpg"
 import logo from "asserts/picture/logo.png"
 
 export default {
-    title: "UI组件/Avatar",
+    title: "UI/Avatar",
     components: Avatar,
     status: {
         control: {

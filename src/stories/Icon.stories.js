@@ -7,7 +7,7 @@ import { Calander, Message, Management, Project, Personnel, Contact, Finance, Da
 const iconMap = {Calander, Dashboard, Message, Management, Project, Personnel, Contact, Finance, Setting}
 
 export default {
-    title: "UI组件/Icon",
+    title: "UI/Icon",
     components: Icon,
     argTypes: {
         color: {control: "color"},

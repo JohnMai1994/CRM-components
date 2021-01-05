@@ -71,7 +71,7 @@ const StyledWord = styled.h4`
   color: ${({theme, active}) => active ? theme.primaryColor : theme.dark};
   padding-left: 10px;
   padding-bottom: 3px;
-  
+  font-weight: normal;
 
 `
 

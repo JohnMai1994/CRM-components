@@ -6,7 +6,7 @@ import {    Calander, Message, Management, Project, Personnel, Contact, Finance,
 
 
 export default {
-    title: "UI组件/NavBar",
+    title: "Page/NavBar",
         components: NavBar
 };
 

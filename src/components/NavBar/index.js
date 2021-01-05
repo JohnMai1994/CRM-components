@@ -66,7 +66,7 @@ function MenuItem({icon, active, showBadge, explore, children, ...rest}) {
                     <MenuIcon active={active} icon={icon}/>
                 </Badge>
 
-                {explore && <Word active={active}>{children}</Word>}
+                {explore && <Word active={active} >{children}</Word>}
             </a>
         </StyleMenuItem>
 

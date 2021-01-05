@@ -5,7 +5,7 @@ import {    Calander, Message, Management, Project, Personnel, Contact, Finance,
 import Icon from "../components/Icon";
 
 export default {
-    title: "UI组件/Badge",
+    title: "UI/Badge",
         components: Badge
 };
 
