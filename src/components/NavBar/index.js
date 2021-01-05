@@ -24,9 +24,7 @@ function NavBar
 ({
      ...rest
  }) {
-
     const [explore, setExplore] = useState(false);
-
 
     function handleExplore() {
         return setExplore(!explore)
