@@ -56,6 +56,7 @@ function NavBar
 }
 
 
+
 function MenuItem({icon, active, showBadge, explore, children, ...rest}) {
     return (
         <StyleMenuItem explore={explore} active={active} {...rest}>
