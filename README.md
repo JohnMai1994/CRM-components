@@ -16,7 +16,7 @@ TopBar
 - [X] Input 输入(Search搜索按钮)
 - [X] Interpretation Icon 翻译按钮
 - [X] Alert Icon 警告按钮
-- [ ] Introduction 简介
+- [X] UserInfo 用户姓名头像
 - [ ] DropDown Menu 下拉菜单
 
 Content

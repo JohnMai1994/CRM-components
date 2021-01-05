@@ -25,7 +25,8 @@ Text.propTypes = {
         "secondary",
         "danger",
         "safe",
-        "freedom"
+        "freedom",
+        "dark"
     ]),
     size: PropTypes.oneOf([
         "xxsmall",

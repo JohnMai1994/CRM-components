@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 
 const typeVariants = {
     primary : css`
-      color: ${({theme}) => theme.grayDark};
+      color: ${({theme}) => theme.primaryColor};
     `,
     secondary: css`
       color: ${({theme}) => theme.grayDark};
@@ -16,6 +16,9 @@ const typeVariants = {
     `,
     freedom: css`
       color: ${({theme}) => theme.freedom};
+    `,
+    dark: css`
+      color: ${({theme}) => theme.dark};
     `,
 }
 

@@ -30,7 +30,7 @@ function Input
     );
 }
 
-function Search({placeholder = "Search", ...rest}) {
+function Search({placeholder = "Search", width = "450px", ...rest}) {
     const theme = useTheme();
 
     return (
@@ -38,6 +38,7 @@ function Search({placeholder = "Search", ...rest}) {
             placeholder={placeholder}
             prefix={<Icon icon={SearchLarge} color={theme.gray3} width={24} height={24}/>}
             prefixBar
+            width={width}
             {...rest}
         />
     )

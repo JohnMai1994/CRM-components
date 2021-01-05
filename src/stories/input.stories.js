@@ -13,13 +13,6 @@ const Template = (args) => <Input {...args} />
 export const Default = Template.bind({});
 Default.args = {
     placeholder: "请输入内容...",
-    width: "450px"
 }
 
-// export const Search = Template.bind({})
-// Search.args = {
-//     placeholder: "Search",
-//     width: "450px",
-// }
-
-export const Search = () => <Input.Search />
+export const Search = () => <Input.Search width="450px"/>
