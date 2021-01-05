@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function Avatar
 ({
      src,
-     shape = "rectangle",
+     shape = "circle",
      size = "48px",
      status,
      statusIconSize = "8px",
@@ -32,10 +32,6 @@ Avatar.propTypes = {
     statusIconSize: PropTypes.string
 };
 
-Avatar.defaultProps = {
-    shape: 'circle',
-    size: "48px",
-}
 
 export default Avatar;
 
