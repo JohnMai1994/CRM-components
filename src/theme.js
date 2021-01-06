@@ -5,7 +5,7 @@ export default {
     blue: "#54B5FF",
     red: "#FF6364",
     white: "#FFFFFF",
-    lightwhite : "#ebf0fa",
+    lightWhite : "#ebf0fa",
     dark: "#333",
 
 
@@ -18,6 +18,7 @@ export default {
     gray3: "rgba(24, 28, 47, 0.3)",
     gray4: "#EFECE8",
     gray5: "#D8D8D8",
+
 
     background: "white",
 
