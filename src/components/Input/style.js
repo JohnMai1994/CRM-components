@@ -25,8 +25,7 @@ const PrefixBar = styled.div`
 const StyledInput = styled.input`
     // 高宽
     width: 100%;
-    height: 16px;
-    padding: 12px 0;
+    height: 40px;
     // 布局
     display: block;
     // 包裹和底部

@@ -27,7 +27,7 @@ const StatusIcon = styled.div`
     ${({size}) => css`width: ${size}`};
     ${({size}) => css`height: ${size}`};
     border-radius: 50%;
-    background-color: ${({theme}) => theme.lightwhite};
+    background-color: ${({theme}) => theme.lightWhite};
     transform: scale(2);
   }
   
