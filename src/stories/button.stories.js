@@ -78,3 +78,26 @@ export const PrefixSecondary = () => (
     </div>
 
 )
+
+export const PrefixNone = () => (
+    <div css={`display: flex;`}>
+        <Button
+            type="none"
+            shape="rectangle"
+            prefix={SearchSmall}
+            prefixColor={"dark"}
+        >
+            Add Contact
+        </Button>
+
+        <Button
+            type="none"
+            shape="rectangle"
+            prefix={Import}
+            prefixColor={"dark"}
+        >
+            Add Contact
+        </Button>
+    </div>
+
+)
