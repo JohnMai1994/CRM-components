@@ -57,7 +57,14 @@ export const PrefixPrimary = () => (
 )
 
 export const PrefixSecondary = () => (
-    <div css={`display: flex;`}>
+    <div
+        style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            width: "100%"
+        }}
+    >
         <Button
             type="secondary"
             shape="rectangle"
@@ -80,7 +87,15 @@ export const PrefixSecondary = () => (
 )
 
 export const PrefixNone = () => (
-    <div css={`display: flex;`}>
+    <div
+        style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            width: "100%"
+        }}
+
+    >
         <Button
             type="none"
             shape="rectangle"
