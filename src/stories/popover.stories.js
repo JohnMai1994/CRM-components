@@ -2,6 +2,7 @@ import React from "react";
 import Popover from "../components/Popover"
 import "stories/story.css"
 import Button from "../components/Button";
+import {Content} from "../components/Popover/style";
 
 export default {
     title: "UI/Popover",
@@ -20,6 +21,8 @@ const Template = (args) => (
         <Popover {...args} >
             <Button shape={"rectangle"}>点我</Button>
         </Popover>
+
+
     </div>
 
 
@@ -27,8 +30,10 @@ const Template = (args) => (
 
 
 export const Default = Template.bind({});
+
+
 Default.args = {
     content: "你好呀",
     offset: "center",
-    position: "bottom",
+    position: "bottom"
 }
