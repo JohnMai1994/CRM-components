@@ -20,7 +20,7 @@ export default {
     gray5: "#D8D8D8",
 
 
-    background: "white",
+    background: "gray4",
 
 
 
