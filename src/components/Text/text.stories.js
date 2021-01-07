@@ -1,6 +1,6 @@
 import React from "react";
-import Text from "../components/Text"
-import  "stories/story.css"
+import Text from "./index"
+import "stories/story.css"
 
 export default {
     title: "TypeSetting/Text",

@@ -9,9 +9,9 @@ import PropTypes from 'prop-types';
 function <%=name%>({children, ...rest }) {
     return (
         <Style<%=name%> {...rest}>
-    {children}
-    </Style<%=name%>>
-        );
+          {children}
+        </Style<%=name%>>
+);
 }
 
 

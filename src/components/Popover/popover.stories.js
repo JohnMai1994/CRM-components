@@ -1,8 +1,7 @@
 import React from "react";
-import Popover from "../components/Popover"
+import Popover from "./index"
 import "stories/story.css"
-import Button from "../components/Button";
-import {Content} from "../components/Popover/style";
+import Button from "components/Button";
 
 export default {
     title: "UI/Popover",

@@ -1,6 +1,6 @@
 import React from "react";
-import Input from "../components/Input"
-import  "stories/story.css"
+import Input from "./index"
+import "stories/story.css"
 
 export default {
     title: "UI/Input",

@@ -1,8 +1,8 @@
 import React from "react";
-import Badge from "../components/Badge"
-import  "stories/story.css"
-import {    Calander, Message, Management, Project, Personnel, Contact, Finance, Dashboard, Setting,} from "../asserts/index"
-import Icon from "../components/Icon";
+import Badge from "./index"
+import "stories/story.css"
+import {    Calander, Message, Management, Project, Personnel, Contact, Finance, Dashboard, Setting,} from "asserts/index"
+import Icon from "../Icon";
 
 export default {
     title: "UI/Badge",

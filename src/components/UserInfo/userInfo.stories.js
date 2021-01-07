@@ -1,6 +1,6 @@
 import React from "react";
-import UserInfo from "../components/UserInfo"
-import  "stories/story.css"
+import UserInfo from "./index"
+import "stories/story.css"
 import face from "asserts/picture/face.jpg"
 
 export default {

@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../components/Avatar"
+import Avatar from "./index"
 import "stories/story.css"
 import face from "asserts/picture/face.jpg"
 import logo from "asserts/picture/logo.png"

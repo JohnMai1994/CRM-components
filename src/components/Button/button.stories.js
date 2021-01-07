@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/Button"
+import Button from "./index"
 import "stories/story.css"
 import {AddRect, SearchSmall,  Import} from "asserts/index"
 

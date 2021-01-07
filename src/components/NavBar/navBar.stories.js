@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar, {MenuItem} from "../components/NavBar"
-import  "stories/story.css"
+import NavBar, {MenuItem} from "./index"
+import "stories/story.css"
 import "styled-components/macro"
 import {    Calander, Message, Management, Project, Personnel, Contact, Finance, Dashboard, Setting} from "asserts/index"
 
