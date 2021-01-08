@@ -1,9 +1,9 @@
 ---
-to: src/components/<%= h.changeCase.lcFirst(name) %>.stories.js
+to: src/components/<%=name%>/<%= h.changeCase.lcFirst(name) %>.stories.js
 ---
 
 import React from "react";
-import <%=name%> from "../components/<%=name%>"
+import <%=name%> from "components/<%=name%>"
 import  "stories/story.css"
 
 export default {
