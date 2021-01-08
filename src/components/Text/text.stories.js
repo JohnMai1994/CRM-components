@@ -15,7 +15,8 @@ export const Default = () => (
         <Text type={"secondary"}> Secondary </Text>
         <Text type={"danger"}> Danger </Text>
         <Text type={"safe"}> Safe </Text>
-        <Text type={"freedom"}> Freestyle </Text>
+        <Text type={"freedom"}> Freedom </Text>
+        <Text type={"dark"}> Freedom </Text>
     </div>
 )
 

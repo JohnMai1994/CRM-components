@@ -4,6 +4,7 @@ export default {
     yellow: "#F7B500",
     blue: "#54B5FF",
     red: "#FF6364",
+    freedom: "#76D7C4",
     white: "#FFFFFF",
     lightWhite : "#ebf0fa",
     dark: "#333",

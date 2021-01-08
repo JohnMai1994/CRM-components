@@ -42,13 +42,18 @@ const InterpretationIcon = () => {
     )
 }
 
-const AlertIcon = ({show = false}) => {
-    const theme = useTheme();
+const AlertIcon = () => {
+    const [show, setShow] = useState(false);
+
+    function handleClick() {
+        setShow(!show)
+    }
 
     return (<Icon
                 icon={show ? NotificationYes : NotificationNo}
                 width={30}
                 height={30}
+                onClick={handleClick}
             />
     )
 
