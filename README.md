@@ -17,9 +17,10 @@ TopBar
 - [X] Interpretation Icon 翻译按钮
 - [X] Alert Icon 警告按钮
 - [X] UserInfo 用户姓名头像
-- [ ] DropDown Menu 下拉菜单
+- [X] DropDown Menu 下拉菜单
+- [X] Separator 分割线
 
 Content
 - [ ] Filter 分类
-- [ ] Button 按钮
+- [X] Button 按钮
 - [ ] Table 表格😔
