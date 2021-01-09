@@ -3,8 +3,6 @@ import Icon from "../Icon";
 import {activeBar} from "../../utils/mixins";
 import StyledAvatar from "../Avatar/style";
 import StyledIcon from "../Icon/style";
-import Text from "../Text";
-import {act} from "@testing-library/react";
 
 
 const StyledNavBar = styled.div`
@@ -55,11 +53,17 @@ const StyleMenuItem = styled.div`
         
         
         ${activeBar()}
-        ${({active}) => (active ? "" : `;&::before {height: 0}`)};
+        ${({active}) => (active ? "" : `;&::before {width: 0}`)};
         background-color: ${({active, theme}) => (active ? theme.grayWhite : "")};
         
         text-decoration-line: none;
-        transition: 1s;
+        transition: 0.4s;
+        
+        &:hover {
+            ${activeBar()};
+            background-color: ${({theme}) => theme.grayWhite };
+        
+        }
     }
     
 `;
