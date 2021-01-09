@@ -25,6 +25,10 @@ NavBarTop
 ![NavBarTop](https://user-images.githubusercontent.com/44597440/104077429-aad03880-51e7-11eb-822b-717c4fbedc6b.gif)
 
 Content
-- [ ] Filter 分类
+- [ ] Selection 分类
 - [X] Button 按钮
 - [ ] Table 表格😔
+    - [ ] CheckBox
+    - [ ] Selection.Priority
+    - [ ] StatusBar
+    - [ ] Document
