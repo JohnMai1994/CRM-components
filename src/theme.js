@@ -19,6 +19,7 @@ export default {
     gray3: "rgba(24, 28, 47, 0.3)",
     gray4: "#EFECE8",
     gray5: "#D8D8D8",
+    gray6: "#999999",
 
 
     background: "gray4",

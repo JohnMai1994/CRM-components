@@ -1,5 +1,5 @@
 import React from 'react';
-import StyleText from "./style";
+import StyledText from "./style";
 import PropTypes from 'prop-types';
 
 function Text
@@ -11,9 +11,9 @@ function Text
      ...rest
  }) {
     return (
-        <StyleText type={type} size={size} bold={bold} {...rest}>
+        <StyledText type={type} size={size} bold={bold} {...rest}>
             {children}
-        </StyleText>
+        </StyledText>
     );
 }
 
