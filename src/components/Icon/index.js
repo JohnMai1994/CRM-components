@@ -64,7 +64,7 @@ Icon.Interpretation = InterpretationIcon;
 Icon.Alert = AlertIcon;
 
 Icon.propTypes = {
-    icon: PropTypes.element,
+    icon: PropTypes.element.isRequired,
     width: PropTypes.number,
     height: PropTypes.number,
     color: PropTypes.string,
