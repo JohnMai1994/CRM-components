@@ -15,15 +15,13 @@ class TimelineBar extends React.Component {
             date: "",
         };
 
-        this.onDateChange = this.onDateChange.bind(this);
-        this.onFocusChange = this.onFocusChange.bind(this);
     }
 
-    onDateChange(date) {
+    onDateChange = (date) => {
         this.setState({ date });
     }
 
-    onFocusChange({ focused }) {
+    onFocusChange = ({ focused }) => {
         this.setState({ focused });
     }
 
