@@ -53,11 +53,7 @@ const StyledText = styled.div`
       font-weight: 400;
       font-size: 13px;
       color: white;
-    
-        
     }
-
-    
 `
 
 
