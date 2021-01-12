@@ -1,6 +1,7 @@
 import React from 'react';
 import StyleTimelineBar from "./style";
 import "react-dates/initialize"
+import PropTypes from 'prop-types';
 import {DateRangePicker, SingleDatePicker, DayPickerRangeController} from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
 import moment from 'moment';
@@ -44,6 +45,10 @@ class TimelineBar extends React.Component {
             </StyleTimelineBar>
         );
     }
+}
+
+TimelineBar.propType = {
+    icon: PropTypes.element
 }
 
 

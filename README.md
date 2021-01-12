@@ -29,6 +29,8 @@ Content
 - [X] Button 按钮
 - [ ] Table 表格😔
     - [ ] CheckBox
-    - [ ] Selection.Priority
-    - [ ] StatusBar
-    - [ ] Document
+    - [ ] Selection.PriorityBar
+    - [X] StatusBar
+    - [ ] PhoneBar
+    - [X] TimelineBar
+    - [ ] DocumentBar
