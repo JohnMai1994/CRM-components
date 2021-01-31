@@ -7,8 +7,9 @@ function Seperator({children, ...rest }) {
         <StyledSeperator {...rest}>
           {children}
         </StyledSeperator>
-);
+ );
 }
+
 
 
 Seperator.propTypes = {

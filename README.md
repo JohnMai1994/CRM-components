@@ -31,6 +31,6 @@ Content
     - [ ] CheckBox
     - [ ] Selection.PriorityBar
     - [X] StatusBar
-    - [ ] PhoneBar
+    - [ ] PhoneBar(弄错了，需要先完成Selection)
     - [X] TimelineBar
     - [ ] DocumentBar

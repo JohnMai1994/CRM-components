@@ -23,6 +23,9 @@ export default {
 
 
     background: "gray4",
+    tableBackground: "#E5E5E5",
+    tableHeader: "#EEE",
+    tableColumn: "#FFF",
 
 
 
