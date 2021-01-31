@@ -40,7 +40,7 @@ function NavBar
             <Avatar src={logo} shape={"rectangle"}/>
             <MenuItems>
                 {/*主菜单*/}
-                <MenuItem explore={explore} showBadge active icon={Dashboard}>Dashboard</MenuItem>
+                <MenuItem explore={explore}  showBadge active icon={Dashboard}>Dashboard</MenuItem>
                 <MenuItem explore={explore} icon={Contact}>Contact</MenuItem>
                 <MenuItem explore={explore} icon={Personnel}>Personnel</MenuItem>
                 <MenuItem explore={explore} icon={Project}>Project</MenuItem>
@@ -56,7 +56,6 @@ function NavBar
 }
 
 
-
 function MenuItem({icon, active, showBadge, explore, children, ...rest}) {
     return (
         <StyleMenuItem explore={explore} active={active} {...rest}>
@@ -65,7 +64,7 @@ function MenuItem({icon, active, showBadge, explore, children, ...rest}) {
                     <MenuIcon active={active} icon={icon}/>
                 </Badge>
 
-                {explore && <Word active={active} >{children}</Word>}
+                {explore && <Word active={active}>{children}</Word>}
             </a>
         </StyleMenuItem>
 
