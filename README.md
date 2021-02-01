@@ -27,10 +27,10 @@ NavBarTop
 Content
 - [ ] Selection 分类
 - [X] Button 按钮
-- [ ] Table 表格😔
-    - [ ] CheckBox
-    - [ ] Selection.PriorityBar
+- [X] Table 表格😔
+    - [ ] CheckBox(放弃)
+    - [X] Selection.PriorityBar
     - [X] StatusBar
     - [ ] PhoneBar(弄错了，需要先完成Selection)
     - [X] TimelineBar
-    - [ ] DocumentBar
+    - [ ] DocumentBar(放弃)
