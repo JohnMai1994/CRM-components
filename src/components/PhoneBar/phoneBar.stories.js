@@ -13,13 +13,13 @@ const Template = (args) => <PhoneBar {...args} />
 export const Controls = Template.bind({});
 Controls.args = {
     national: "China",
-    number: "(239)555-0108"
+    phone: "2395550108"
 }
 
 export const Default = () => (
     <div>
-        <PhoneBar number={"(239)555-0108"} national={"China"}/>
-        <PhoneBar number={"(239)555-0108"} national={"Canada"}/>
-        <PhoneBar number={"(239)555-0108"} national={"USA"}/>
+        <PhoneBar phone={"2395550108"} national={"China"}/>
+        <PhoneBar phone={"2395550108"} national={"Canada"}/>
+        <PhoneBar phone={"2395550108"} national={"USA"}/>
     </div>
 )

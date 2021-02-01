@@ -18,7 +18,7 @@ const StyledStatusBar = styled.div`
     background-color: ${({theme}) => theme.gray6};
     box-shadow: 0 8px 40px rgba(0,0,0,0.12);
     border-radius: 11px;
-    width: 125px;
+    width: 110px;
     height: 22px;
     overflow: hidden;
 `;

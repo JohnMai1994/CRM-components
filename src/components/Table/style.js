@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import StyledStatusBar from "../StatusBar/style";
+import StyledPhoneBar from "../PhoneBar/style";
 
 const StyledTable = styled.table`
     
@@ -24,6 +26,7 @@ const StyledTfoot = styled.tfoot``;
 
 const StyledTableRow = styled.tr`
     
+    
 `;
 
 const StyledTableHeader = styled.th`
@@ -40,24 +43,33 @@ const StyledTableHeader = styled.th`
 
     min-width: 129px;
     height: 48px;
-    
-
 `;
 
 const StyledTableItem = styled.td`
+
     font-family: Roboto, monospace;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
     line-height: 30px;
 
-    /*水平居中*/
-    text-align: center;
-    /*垂直方向居中*/
-    vertical-align: middle;
 
-    min-width: 129px;
+    /*水平居中*/
+    text-align: center!important;
+    /*垂直方向居中*/
+    vertical-align: middle!important;
+
+    min-width: 140px;
     height: 48px;
+    
+    ${StyledStatusBar}{
+        margin-top: 4px;
+        margin-left: 15px;
+    }
+    
+    ${StyledPhoneBar} {
+        margin-left: 10px;
+    }
     
 `;
 

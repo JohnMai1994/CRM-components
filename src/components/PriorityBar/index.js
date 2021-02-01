@@ -25,7 +25,7 @@ function PriorityBar({colourOptions ,children, ...rest }) {
     });
 
     const colourStyles = {
-        control: styles => ({ ...styles, backgroundColor: 'white' }),
+        control: styles => ({ ...styles, backgroundColor: 'white', border: "0" }),
         option: (styles, { data, isDisabled, isFocused, isSelected }) => {
             const color = chroma(data.color);
             return {

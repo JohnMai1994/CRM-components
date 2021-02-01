@@ -8,7 +8,7 @@ import Icon from "../Icon";
 function PhoneBar
 ({
      national = "Canada",
-    number,
+     phone,
      ...rest
  }) {
 
@@ -21,7 +21,7 @@ function PhoneBar
     return (
         <StylePhoneBar {...rest}>
             <Icon icon={nationals[national]} height={16} width={16}/>
-            <p>{number}</p>
+            <p>({phone.substring(0,3)}){phone.substring(3,6)}-{phone.substring(6)}</p>
         </StylePhoneBar>
     );
 }
@@ -29,7 +29,7 @@ function PhoneBar
 
 PhoneBar.propTypes = {
     national: PropTypes.oneOf(["Canada", "China", "USA"]),
-    number: PropTypes.string
+    phone: PropTypes.string
 };
 
 export default PhoneBar;

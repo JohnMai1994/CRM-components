@@ -25,12 +25,12 @@ NavBarTop
 ![NavBarTop](https://user-images.githubusercontent.com/44597440/104077429-aad03880-51e7-11eb-822b-717c4fbedc6b.gif)
 
 Content
-- [ ] Selection 分类
+- [X] Selection 分类
 - [X] Button 按钮
 - [X] Table 表格😔
     - [ ] CheckBox(放弃)
     - [X] Selection.PriorityBar
     - [X] StatusBar
-    - [ ] PhoneBar(弄错了，需要先完成Selection)
+    - [X] PhoneBar
     - [X] TimelineBar
     - [ ] DocumentBar(放弃)

@@ -41,6 +41,7 @@ class TimelineBar extends React.Component {
                     onFocusChange={this.onFocusChange}
                     noBorder
                     customInputIcon={<Icon icon={this.props.icon}/>}
+
                 />
             </StyleTimelineBar>
         );
