@@ -3,8 +3,9 @@ import styled from "styled-components";
 const StyledPageContact = styled.div`
 
     background-color: ${({theme}) => theme.background};
-    height: 100vh;
-    padding: 40px 50px
+    max-height: 100vh;
+    padding-top: 40px;
+    padding-left: 50px;
 `;
 
 const StyledHeading = styled.div`

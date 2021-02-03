@@ -1,10 +1,13 @@
 import './App.css';
+import {ThemeProvider} from "styled-components";
+import theme from "./theme";
+import CRMApp from "./components/CRMApp";
 
 function App() {
   return (
-    <div >
-      <h1>Hello World</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+        <CRMApp/>
+    </ThemeProvider>
   );
 }
 

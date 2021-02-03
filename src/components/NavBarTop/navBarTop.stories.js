@@ -7,7 +7,7 @@ export default {
         components: NavBarTop
 };
 
-const Template = (args) => <NavBarTop {...args} >默认</NavBarTop>
+const Template = (args) => <NavBarTop {...args} />
 
 
 export const Default = Template.bind({});

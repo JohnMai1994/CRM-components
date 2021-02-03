@@ -9,7 +9,7 @@ const StyledNavBar = styled.div`
     display: grid;
     grid-template-rows: 80px 1fr 4fr 1fr;
     
-    width: ${({explore}) => (explore ? "300px" : "100px")};
+    width: ${({explore}) => (explore ? "220px" : "100px")};
     transition: 1s;
     
     height: 100vh;
