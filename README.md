@@ -7,6 +7,8 @@
 
 ![Content](./public/gif/CRMApp.gif)
 
+![demo](./public/gif/demo.png)
+
 ### Need to Do
 
 NavBar
@@ -35,3 +37,6 @@ Content
     - [X] TimelineBar
     - [ ] DocumentBar(放弃)
     
+### Reference
+Developer: [John Mai](https://www.linkedin.com/in/johnmai1994/)
+Main Designer: [Winnie Men](https://www.linkedin.com/in/wanyi-men/)
