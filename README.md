@@ -3,6 +3,10 @@
 2. npm install
 3. npm run storybook
 
+### Finished
+
+![Content](./public/gif/CRMApp.gif)
+
 ### Need to Do
 
 NavBar
@@ -35,4 +39,4 @@ Content
     - [X] TimelineBar
     - [ ] DocumentBar(放弃)
     
-
+![Content](./public/gif/Content.gif)
