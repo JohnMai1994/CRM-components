@@ -7,10 +7,10 @@ const StyledSelect = styled.select`
     background-image: url("${arrowDown}");
     background-repeat: no-repeat;
     background-position: right center;
-    background-color: transparent;
+    background-color: ${({theme}) => theme.white};
     
-    min-width: 108px;
-    height: 30px;
+    min-width: 130px;
+    height: 38px;
     border-radius: 8px;
     
     border: none;

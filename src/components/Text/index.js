@@ -20,6 +20,7 @@ function Text
 
 Text.propTypes = {
     children: PropTypes.any,
+    bold: PropTypes.bool,
     type: PropTypes.oneOf([
         "primary",
         "secondary",
