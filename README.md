@@ -7,6 +7,7 @@
 
 ![Content](./public/gif/CRMApp.gif)
 
+Original:
 ![demo](./public/gif/demo.png)
 
 ### Need to Do
