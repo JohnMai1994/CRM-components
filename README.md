@@ -32,7 +32,7 @@ Content
 - [X] Button 按钮
 - [X] Table 表格😔
     - [ ] CheckBox(放弃)
-    - [X] Selection.PriorityBar
+    - [X] PriorityBar
     - [X] StatusBar
     - [X] PhoneBar
     - [X] TimelineBar
