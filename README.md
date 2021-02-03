@@ -1,7 +1,7 @@
 ### How to Use
-1. Open project directory
-2. npm install
-3. npm run storybook
+1. Open project directory terminal
+2. `npm install`
+3. `npm run start`
 
 ### Finished
 
