@@ -20,6 +20,7 @@ export default {
     gray4: "#EFECE8",
     gray5: "#D8D8D8",
     gray6: "#999999",
+    gray7: "#666666",
 
 
     background: "#E5E5E5",

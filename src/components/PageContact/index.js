@@ -10,7 +10,8 @@ function PageContact({children, ...rest }) {
         <StylePageContact {...rest}>
 
 
-            {/*<Table dataSource={dataSource} columns={columns}/>*/}
+
+
 
         </StylePageContact>
 );

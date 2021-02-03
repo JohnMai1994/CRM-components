@@ -3,7 +3,7 @@ import PageContact from "components/PageContact"
 import  "stories/story.css"
 
 export default {
-    title: "UI/PageContact",
+    title: "PAGE/PageContact",
         components: PageContact
 };
 
